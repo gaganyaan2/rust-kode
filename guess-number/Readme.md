@@ -1,9 +1,9 @@
 # guess number
 
-'''bash
+```bash
 cargo run
 
 cargo build
 
 cargo build --release
-'''
+```
