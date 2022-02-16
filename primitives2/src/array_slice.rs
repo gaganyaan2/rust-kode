@@ -1,4 +1,4 @@
-use std::mem;
+//use std::mem;
 
 fn analyze_slice(slice: &[i32]) {
     println!("first element of the slice: {}", slice[0]);
@@ -16,5 +16,7 @@ pub fn run() {
     println!("print xy : {}",xy[10]);
 
     //array length
-    println!("array length of xy: {}",xy.len())
+    println!("array length of xy: {}",xy.len());
+
+    analyze_slice(&xs);
 }
